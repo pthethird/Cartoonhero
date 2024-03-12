@@ -3,17 +3,30 @@ body{
 	font-family: 'helvetica', 'arial', sans-serif;
 	font-size: 20px;
 	line-height: 30px;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-attachment: fixed;
+  background-size: cover;
+	
 }
 
 header{
-	background-color: #d14635;
+	background-color: rgba(184, 51, 51,0.7);
 	text-align: center;
+	max-width: 800px;
+	margin: 0 auto;
+	padding: 20px;
+
 	padding-top: 50px;
 	padding-bottom: 50px;
+
 }
 
 h1 ,h2{
-	font-family: "Press Start 2P", cursive;
+  font-family: "Montagu Slab", serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
 }
 
 /* header styles*/
@@ -24,15 +37,18 @@ header h1{
 }
 
 header img{
-	    border-radius: 170px;
-    width: 300px;
-    border: 20px solid white; 
+		border-radius: 150px;
+
+	   width: 200px;
 } 
+
+/* main styles */
 
 main{
 	max-width: 800px;
 	margin: 0 auto;
 	padding: 20px;
+	background-color: rgba(184, 51, 51,0.7);
 
 }
 
@@ -41,25 +57,28 @@ main img{
 }
 
 h2{
-	color: #e70c19;
+	color: white;
 	font-size: 30px;
 	margin: 40px 0 10px;
+	background-color: rgba(184, 51, 51,1);
 }
 
 a{
-	color: #e70c19;
+	color: white;
 	
 }
 a:hover{
-	background-color: #483a94;
+	opacity: .5;
+	background-color: transparent;
 	color: white;
 }
 
 footer{
-	background-color: #d14635;
+	background-color: rgba(184, 51, 51,1.0);
 	text-align: center;
-	color: white;
-	padding: 50px;
+	max-width: 800px;
+	margin: 0 auto;
+	padding: 20px;
 }
 
 footer p{
